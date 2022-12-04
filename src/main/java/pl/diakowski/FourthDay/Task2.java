@@ -28,11 +28,6 @@ public class Task2 {
                     count++;
                 }
             }
-            for (Pair pair : pairArrayList) {
-                if (pair.checkIfOneContainAnother()) {
-                    //count++;
-                }
-            }
             System.out.println(count);
             Pair pair = new Pair(new ArrayList<Elf>() {{
                 add(new Elf(1, 3));
